@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "310609023275",
+    "firebase_url": "https://arduino-iot-2021-default-rtdb.firebaseio.com",
+    "project_id": "arduino-iot-2021",
+    "storage_bucket": "arduino-iot-2021.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:310609023275:android:f32a1386a595ecb748b56e",
+        "android_client_info": {
+          "package_name": "com.example.arduinoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "310609023275-r7b911qsb843pav32tsrikg5p35nigdb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjwQwqjYe0uFhZm436DUJXRiJLbQOH6f4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "310609023275-r7b911qsb843pav32tsrikg5p35nigdb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
