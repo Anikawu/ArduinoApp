@@ -18,7 +18,7 @@ fun main() {
     val num4 = Array(5,{i -> i*1}) //i從0開始
     println(num4.contentToString())
     //使用 lambda 語法印出(走訪)每一個元素
-    num4.forEach { n->println("n =${n}")}
+    num4.forEach { n->println("n =$n")}
     num4.forEach { println(it) }
 
 }
