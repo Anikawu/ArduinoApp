@@ -2,7 +2,7 @@ package com.study.app_tickets_firebase
 
 import kotlin.math.round
 
-class Tickets(var allTickets: Int, var roundTrip: Int) {
+class Tickets(var userName:String,var allTickets: Int, var roundTrip: Int) {
 
     var oneWay: Int = 0
     init {

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:layout_above="@+id/et_username"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ticket"
+        android:layout_width="250dp"
+        android:layout_height="250dp"/>
+
+    <EditText
+        android:id="@+id/et_username"
+        android:hint="請輸入帳號"
+        android:textSize="30dp"
+        android:padding="20dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/bt_order_login"
+        android:text="訂票登入"
+        android:textSize="30dp"
+        android:padding="10dp"
+        android:onClick="login"
+        android:layout_below="@+id/et_username"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/bt_console_login"
+        android:text="後台登入"
+        android:textSize="30dp"
+        android:padding="10dp"
+        android:onClick="consoleLogin"
+        android:layout_below="@+id/bt_order_login"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</RelativeLayout>
