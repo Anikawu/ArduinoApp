@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">App_ticket</string>
+    <string name="ticket_result">總張數：%d\n來回票：%d\n單程票：%d\n總金額：$%,d</string>
+</resources>
