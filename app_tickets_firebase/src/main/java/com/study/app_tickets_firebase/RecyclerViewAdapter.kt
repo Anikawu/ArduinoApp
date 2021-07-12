@@ -1,13 +1,10 @@
 package com.study.app_tickets_firebase
 
 import android.view.LayoutInflater
-import android.view.OrientationEventListener
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.order.view.*
-
-
 
 // 適配器(配置每一筆紀錄的擺放方式)
 class RecyclerViewAdapter(val listener: RowOnItemClickListener): RecyclerView.Adapter<RecyclerViewAdapter.MyViewHolder>() {
@@ -18,11 +15,13 @@ class RecyclerViewAdapter(val listener: RowOnItemClickListener): RecyclerView.Ad
 
     // View 配置方式
     class MyViewHolder(view: View): RecyclerView.ViewHolder(view) {
+        val userName   = view.tv_userName
         val allTickets = view.tv_allTickets
         val roundTrip  = view.tv_roundTrip
         val oneWay     = view.tv_oneWay
         val total      = view.tv_total
         fun bind(order: Order) {
+            userName.text   = order.userName
             allTickets.text = order.allTickets.toString()
             roundTrip.text  = order.roundTrip.toString()
             oneWay.text     = order.oneWay.toString()

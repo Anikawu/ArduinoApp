@@ -11,8 +11,11 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/app_iot" />
+            <option value="$PROJECT_DIR$/app_qrcode_scanner" />
             <option value="$PROJECT_DIR$/app_ticket" />
             <option value="$PROJECT_DIR$/app_tickets_firebase" />
+            <option value="$PROJECT_DIR$/app_tickets_firebase/app_iot" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

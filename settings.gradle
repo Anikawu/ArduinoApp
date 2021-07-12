@@ -2,3 +2,6 @@ rootProject.name = "ArduinoApp"
 include ':app'
 include ':app_ticket'
 include ':app_tickets_firebase'
+include ':app_tickets_firebase:app_iot'
+include ':app_iot'
+include ':app_qrcode_scanner'
